@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "279889223179",
+    "project_id": "unizap-bb989",
+    "storage_bucket": "unizap-bb989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279889223179:android:15a1531473b4096907310e",
+        "android_client_info": {
+          "package_name": "br.uninove.unizap.app_unizap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279889223179-svipsrgie9blki2h8m83tov1p4o73m8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnvAlN2k1wuoPX_dcHPELvUhP4OdTyMpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279889223179-svipsrgie9blki2h8m83tov1p4o73m8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
