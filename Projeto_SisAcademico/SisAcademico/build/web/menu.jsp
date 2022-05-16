@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    <img src="<%=request.getContextPath()%>/img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
                     SisAcadêmico
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,8 +30,8 @@
                                 Relatórios
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Alunos Matriculados</a></li>
-                                <li><a class="dropdown-item" href="#">Cursos Disponíveis</a></li>
+                                <li><a class="dropdown-item" href="<%=request.getContextPath()%>/relatorios/loader.jsp?pagina=aluno">Alunos Matriculados</a></li>
+                                <li><a class="dropdown-item" href="<%=request.getContextPath()%>/relatorios/loader.jsp?pagina=curso">Cursos Disponíveis</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">

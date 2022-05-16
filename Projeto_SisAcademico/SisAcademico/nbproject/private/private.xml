@@ -3,8 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/web/menu.jsp</file>
             <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/web/index.jsp</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/src/java/br/sisacademico/controllers/AlunoController.java</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/web/relatorios/loader.jsp</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/src/java/br/sisacademico/dao/AlunoDao.java</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/src/java/br/sisacademico/dao/ConnectionFactory.java</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/web/relatorios/alunos.jsp</file>
+            <file>file:/C:/projetosnetbeans/Projeto_SisAcademico/SisAcademico/web/menu.jsp</file>
         </group>
     </open-files>
 </project-private>
