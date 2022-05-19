@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "279889223179-h7c0s8c3hlinddrr6lkh1bbc6vqfkucb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.uninove.unizap.app_unizap",
+            "certificate_hash": "8a92cdc507522836ecd3614e5ca34acddfb3bb19"
+          }
+        },
+        {
           "client_id": "279889223179-svipsrgie9blki2h8m83tov1p4o73m8d.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "279889223179-svipsrgie9blki2h8m83tov1p4o73m8d.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "279889223179-d3cbu2pku09ivopp6jm1diaf0knh1l1g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.uninove.unizap.appUnizap"
+              }
             }
           ]
         }
