@@ -1,5 +1,3 @@
-import 'dart:js';
-
 import 'package:app_unizap/screens/home_screen.dart';
 import 'package:app_unizap/screens/login_screen.dart';
 import 'package:flutter/material.dart';

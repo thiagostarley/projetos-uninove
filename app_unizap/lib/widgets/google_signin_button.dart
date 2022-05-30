@@ -1,4 +1,6 @@
+import 'package:app_unizap/services/firebase_service.dart';
 import 'package:app_unizap/utils/constants.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -35,9 +37,43 @@ class _GoogleSignInState extends State<GoogleSignIn> {
                         MaterialStateProperty.all<Color>(Constants.kGrey),
                     side:
                         MaterialStateProperty.all<BorderSide>(BorderSide.none)),
-                onPressed: () {
-                  //paramos aqui
+                onPressed: () async {
+                  setState(() {
+                    _isLoading = true;
+                  });
+
+                  try {
+                    FirebaseService service = FirebaseService();
+                    await service.signInWithGoogle().then((value) =>
+                        Navigator.pushNamedAndRemoveUntil(
+                            context, Constants.homeRoute, (route) => false));
+                  } catch (e) {
+                    if (e is FirebaseAuthException) {
+                      showMessage(e.message!);
+                    }
+                  }
+                  
+                 // _isLoading = false;
+
                 }))
         : const CircularProgressIndicator();
+  }
+
+  void showMessage(String mensagem) {
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: const Text(Constants.txtErro),
+            content: Text(mensagem),
+            actions: [
+              TextButton(
+                  child: const Text(Constants.txtOk),
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  })
+            ],
+          );
+        });
   }
 }

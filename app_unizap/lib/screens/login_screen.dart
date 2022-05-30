@@ -1,4 +1,5 @@
 import 'package:app_unizap/utils/constants.dart';
+import 'package:app_unizap/widgets/google_signin_button.dart';
 import 'package:flutter/material.dart';
 
 
@@ -37,7 +38,7 @@ class LoginScreen extends StatelessWidget {
               style: TextStyle(color: Constants.kGreyDark),
             ),
             SizedBox(height: size.height * 0.02),
-            
+            const GoogleSignIn()
           ],
         )
       ),
