@@ -8,6 +8,8 @@ class Constants {
   static const kGrey = Color.fromARGB(255, 205, 205, 205);
   static const kGreyDark = Color.fromARGB(255, 100, 100, 100);
   static const kBlue = Colors.blue;
+  static const kGreen = Color.fromARGB(255, 11, 92, 64);
+  static const kRed  = Colors.red;
 
   //constantes de navegação:
   static const signInRoute = '/';
@@ -21,6 +23,9 @@ class Constants {
   static const textHome = 'Home';
   static const txtErro = 'Erro';
   static const txtOk = 'Ok';
+  static const txtGaleria = 'Galeria';
+  static const txtCamera = 'Câmera';
+  static const txtCancelar = 'Cancelar';
 
   static const statusBarColor = SystemUiOverlayStyle(
       statusBarColor: Constants.kPrimaryColor,
